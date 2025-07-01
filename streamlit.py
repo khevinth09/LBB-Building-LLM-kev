@@ -1,7 +1,7 @@
 # Import dan Setup
 import streamlit as st
 import pandas as pd
-from sentence-transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 import openai

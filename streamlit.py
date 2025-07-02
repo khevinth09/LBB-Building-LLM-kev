@@ -58,11 +58,11 @@ def generate_answer(query, context, api_key) :
 # ----------------- UI -----------------
 
 ## Title Main Page
-st.title("Nama Judul Main Page!!")
+st.title("Simple RAG")
 
 ## Sidebar
 ### Input Sidebar
-st.sidebar.header("Nama Judul Sidebar")
+st.sidebar.header("Simple Menu")
 
 uploaded_file = st.sidebar.file_uploader("Upload File", type='csv')
 input_api_key = st.sidebar.text_input("Masukkan API Key", type='password')
